@@ -13,7 +13,7 @@ function h1(content) {
 }
 
 function p(content) {
-	var createP = _.template("<p> <%= content </p>");
+	var createP = _.template("<p> <%= content %> </p>");
 	return createP({content:content});
 }
 
